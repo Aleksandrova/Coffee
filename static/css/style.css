@@ -73,7 +73,12 @@ body {
 }
 
 #products-holder{
-	background-color: green;
 	width: 100%;
-	height: 700px;
+	height: 500px;
+}
+
+#products-slider{
+	width: 100%;
+	height: 200px;
+	background-color: #e2dbcf;
 }
