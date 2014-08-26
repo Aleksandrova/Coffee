@@ -6,6 +6,7 @@ html, body {
  
 body {
 	background-color: #efe8da ;
+	font-family: 'Century Gothic';
 }
 
 #menu{
@@ -26,6 +27,30 @@ body {
 	padding:0px;
 }
 
+#logo{
+	background-image: url('/static/img/logo.png'); 
+	background-repeat: no-repeat;
+	background-size: 75%;
+	height: 80px;
+	width: 200px;
+	margin-left: 50px;
+	float:left;
+}
+
+#holder{
+	height: auto;
+	width: 450px;
+	float: right;
+}
+
+#holder, a{
+	margin-left: 60px;
+	margin-top: 30px;
+	color: #909090;
+	font-size: 11pt;
+	text-decoration: none;
+}
+
 #test{
 	height:50%;
 	max-height:200px;
@@ -33,7 +58,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-	/* background-color: green; */
 	position: relative;
 	top: 200px; left: 0; bottom: 0; right: 0;
 	color: #fff;
@@ -46,5 +70,5 @@ body {
 	font-size: 18pt !important;
 	font-family: 'Century Gothic' !important;
 	font-style: italic;
-	
 }
+
