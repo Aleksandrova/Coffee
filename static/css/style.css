@@ -103,7 +103,8 @@ body {
 
 #about-block{
 	width: 100%;
-	height: 700px;
+	height: auto;
+	/* height: 700px; */
 	background-image: url('/static/img/pattern.png');
 	background-size:   cover;  	
 }
@@ -204,22 +205,29 @@ body {
 
 #writeus-block{
 	width: 100%;
-	height: 150px;
+	height: auto;
 	background-color: #120d08;
 	padding-top: 20px;
+	padding-bottom: 8px;
 }
 
-#writeus-block div{
-	height: auto;
-	width: 50%;
-	text-align: center;
+#pishete{
+	font-size: 50pt;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 18pt;
+	height: auto;
+	width:400px;
+	text-align: center;
 }
 
-#writeus-block div:first-child{
-	font-size: 50pt !important;
+#za{
+	font-size: 18pt;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width:auto;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 #form-block{
