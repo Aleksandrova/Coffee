@@ -51,7 +51,7 @@ body {
 }
 
 #home-block{
-	height: 900px;
+	height: 800px;
 	width:100%;
 	background-image: url('/static/img/bg-cut.png');
 	background-repeat: no-repeat;
@@ -134,7 +134,7 @@ body {
 	margin-top: 75px;
 	color: #130d09;
 	text-align: center; 
-	font-size: 44pt;
+	font-size: 40pt;
 	padding-top: 10px;
 }
 
@@ -149,7 +149,7 @@ body {
 #about-text{
 	margin-top: 40px;
 	text-align: center;
-	font-size: 16pt;
+	font-size: 14pt;
 	line-height: 30pt;
 }
 
@@ -168,12 +168,12 @@ body {
 
 #city, #location{
 	margin-left: 65px;
-	font-size: 44pt;
+	font-size: 36pt;
 	margin-top: 46px;
 }
 
 #location{
-	font-size: 24pt !important;
+	font-size: 18pt !important;
 }
 
 #line{
@@ -192,12 +192,12 @@ body {
 	width:35%;
 	float: right;
 	color: #120d08;
-	font-size: 22pt;
+	font-size: 18pt;
 	padding-top: 30px;
 }
 
 #right div{
-	margin-top: 25px;
+	margin-top: 18px;
 }
 
 #right img{
@@ -209,13 +209,13 @@ body {
 #writeus-block{
 	width: 100%;
 	height: auto;
-	background-color: #120d08;
+	background-color: #1b130f;
 	padding-top: 20px;
 	padding-bottom: 8px;
 }
 
 #pishete{
-	font-size: 50pt;
+	font-size: 40pt;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
@@ -224,7 +224,7 @@ body {
 }
 
 #za{
-	font-size: 18pt;
+	font-size: 14pt;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
