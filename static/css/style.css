@@ -111,10 +111,12 @@ body {
 
 #info-holder{
 	width: 55%;
-	height: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid rgba(255, 0, 0, 0) 1px;
+	padding-bottom:70px;
+	
 }
 
 #info-holder div{
@@ -129,7 +131,7 @@ body {
 	max-width: 340px;
 	min-width: 233px;
 	background-color: #f2e8d7;
-	margin-top: 150px;
+	margin-top: 75px;
 	color: #130d09;
 	text-align: center; 
 	font-size: 44pt;
@@ -147,7 +149,8 @@ body {
 #about-text{
 	margin-top: 40px;
 	text-align: center;
-	font-size: 18pt;
+	font-size: 16pt;
+	line-height: 30pt;
 }
 
 #contact-block{
@@ -186,7 +189,7 @@ body {
 
 #right{
 	height:100%;
-	width:30%;
+	width:35%;
 	float: right;
 	color: #120d08;
 	font-size: 22pt;
@@ -216,7 +219,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
-	width:400px;
+	width:430px;
 	text-align: center;
 }
 
