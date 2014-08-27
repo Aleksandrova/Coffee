@@ -235,13 +235,13 @@ body {
 
 #form-block{
 	width: 100%;
-	height:700px;
-	border: solid green 5px;
+	height:500px;
+	padding-top: 66px;
 }
 
 footer{
 	width: 100%;
-	height:250px;
+	height:150px;
 	background-image: url('/static/img/pattern.png');
 	background-size:   cover; 
 	padding-top: 35px; 	
@@ -257,8 +257,130 @@ footer img{
 	display: block;
 }
 
-footer div{
+#copyright{
 	margin-right: 40px;
 	position: relative;
 	top: 45px;
 }
+
+/**/
+
+
+#form-holder{
+	height: auto;
+	width: 80%;
+	max-width:670px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	color: #1b130f;
+	position: relative;
+	left: -50;
+}
+
+form div{
+	width: auto;
+	height: auto;
+}
+#form-holder input {
+	width: 600px;
+}
+
+input{
+	display: block; 
+}
+
+
+textarea{
+	width: 100% !important;
+}
+
+#form-holder input, #form-holder textarea, #tex  {
+	width:66%;
+	height:55px;
+	background:none;
+	border: none;
+	padding:10px;
+	margin-top:-48px;
+	margin-left: 140px; 
+	font-size: 16pt;
+	font-family: "Century Gothic"; 
+	color: #1b130f;
+}
+
+#tex{
+	height: auto;
+}
+
+#form-holder input, #form-holder textarea{
+	border: solid 1px #1b130f !important;
+}
+
+#form-holder textarea{
+	margin-top: -10px !important;
+	margin-left: -10px;
+	
+	width: 100% !important;
+	height: 150px;
+}
+
+form p{
+	font-size: 16pt;
+	position: relative;
+	top: 10px;
+	left: 40px;
+	width: 100px;
+	
+}
+
+@media all and (max-width: 750px) { 
+
+	form p{
+		display: none;
+	}
+	
+	#form-holder input, #form-holder textarea, #tex  {
+		width: 83%;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	
+	#form-holder textarea{
+		margin-left: -10px;
+	}
+	
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #1b130f;
+}
+
+#button-send{
+	height: 50px!important;
+	max-width: 670px!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-top: 10px!important;
+	margin-bottom: 30px!important;
+
+	background-color: #1b130f!important;
+	color: efe8da!important;
+	text-align: center!important;
+	position:relative;
+	left: 26px;
+}
+
+#button-send p {
+	font-size: 18pt;
+}
+
+
+#fix{
+	width: 100%;
+	height: 1px;
+	background-color: none;
+}
+
