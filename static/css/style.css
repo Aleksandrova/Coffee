@@ -222,26 +222,26 @@ body {
 	border: solid green 5px;
 }
 
-#footer{
+footer{
 	width: 100%;
 	height:250px;
 	background-image: url('/static/img/pattern.png');
 	background-size:   cover; 
-	padding-top: 30px; 	
+	padding-top: 35px; 	
 	color: #918f8d;
 	font-size: 8pt;
 	text-align: right; 
 }
 
-#footer img{
+footer img{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 
-#footer div{
+footer div{
 	margin-right: 40px;
 	position: relative;
-	top: 50px;
+	top: 45px;
 }
