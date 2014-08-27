@@ -45,6 +45,7 @@ body {
 
 .container{
 	max-width: 1000px;
+	height: inherit;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -52,9 +53,10 @@ body {
 #home-block{
 	height: 900px;
 	width:100%;
-	background-image: url('/static/img/bg.png');
+	background-image: url('/static/img/bg-cut.png');
 	background-repeat: no-repeat;
-	background-size:   cover;  
+	background-position: center center;
+	background-size: cover;  
 	margin:0px;
 	padding:0px;
 	z-index: 0;
@@ -64,11 +66,10 @@ body {
 	height: auto;
 	width: 60%;
 	
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	left: 50%;
-	top:50%;
-	margin-left: -260px;
-	margin-top: 0px;
+	top: 250px;
 	
 	color: #fff;
 	text-align: center;
