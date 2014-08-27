@@ -55,7 +55,6 @@ body {
 	background-image: url('/static/img/bg.png');
 	background-repeat: no-repeat;
 	background-size:   cover;  
-	/* background-size: 100%; */
 	margin:0px;
 	padding:0px;
 	z-index: 0;
@@ -63,13 +62,13 @@ body {
 
 #test{
 	height: auto;
-	width: 50%;
+	width: 60%;
 	
 	position: relative;
 	left: 50%;
 	top:50%;
-	margin-left: -320px;
-	margin-top: -220px;
+	margin-left: -260px;
+	margin-top: 0px;
 	
 	color: #fff;
 	text-align: center;
