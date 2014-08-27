@@ -179,7 +179,7 @@ body {
 #line{
 	width: 70%;
 	height: 15px;
-	background-image: url('/static/img/line.png');
+	background-image: url('/static/img/line-w.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-left: 0px !important;
