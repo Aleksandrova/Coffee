@@ -85,26 +85,54 @@ body {
 
 #products-block{
 	width: 100%;
-	height: 500px;
-	background-color:blue;
+	height: 460px;
+	padding-top: 30px;
 }
 
-#jack{
-	height: 100px;
-	width: 100px;
-	background-color: red;
+#name{
+	height: 50px;
+	width: 210px;
+	background-color: #22160e;
+	margin-top: 75px;
+	margin-left:auto;
+	margin-right: auto;
+	color: #f2e8d7;
+	text-align: center; 
+	font-size: 26pt;
+	padding-top: 10px;
+}
+
+#b-bean{
+	background-image: url('/static/img/dark-bean.png');
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#description{
+	max-width: 300px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14pt;
+	line-height: 20pt;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #products-slider{
 	width: 100%;
 	height: 200px;
 	background-color: #e2dbcf;
+	box-shadow: 0px 4px 20px 0px rgba(50, 50, 50, 0.55);
+	
 }
 
 #about-block{
 	width: 100%;
 	height: auto;
-	/* height: 700px; */
 	background-image: url('/static/img/pattern.png');
 	background-size:   cover;  	
 }
@@ -158,7 +186,7 @@ body {
 	height: 400px;
 }
 
-#left{
+.left{
 	height:100%;
 	width:60%;
 	float: left;
@@ -187,7 +215,7 @@ body {
 }
 
 
-#right{
+.right{
 	height:100%;
 	width:35%;
 	float: right;
