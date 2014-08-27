@@ -224,11 +224,11 @@ body {
 	padding-top: 30px;
 }
 
-#right div{
+.right div{
 	margin-top: 18px;
 }
 
-#right img{
+.right img{
 	position: relative;
 	top: 8px;
 	margin-right: 20px;
