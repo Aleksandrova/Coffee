@@ -53,7 +53,7 @@ body {
 #home-block{
 	height: 800px;
 	width:100%;
-	background-image: url('/static/img/bg-cut.png');
+	background-image: url('/static/img/bg-dark.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;  
